@@ -1,0 +1,15 @@
+#tribute-presentation{
+  height: 100vh;
+  background: #033F63;
+  text-align: center;
+}
+
+#tribute-presentation h1{
+  font-size: 48px;
+  color: #fff;
+}
+
+#tribute-presentation h4{
+  color: #fff;
+  font-size: 32px;
+}
