@@ -19,3 +19,35 @@
   font-size: 32px;
   font-weight: 200;
 }
+
+#tribute-quote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 680px;
+  background: #3E5C41;
+  text-align: center;
+}
+
+#tribute-quote p{
+  width: 300px;
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+
+#tribute-quote #img-div{
+  height: 70%;
+  margin: 40px;
+}
+
+#tribute-quote #img-div #image{
+  width: auto;
+  height: 100%;
+}
+
+@media(min-width: 900px){
+  #tribute-quote{
+    flex-direction: row;
+  }
+}
