@@ -1,15 +1,21 @@
 #tribute-presentation{
   height: 100vh;
   background: #033F63;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Serif', serif;
 }
 
 #tribute-presentation h1{
   font-size: 48px;
   color: #fff;
+  font-weight: 200;
 }
 
 #tribute-presentation h4{
   color: #fff;
   font-size: 32px;
+  font-weight: 200;
 }
