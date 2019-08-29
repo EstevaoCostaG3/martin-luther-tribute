@@ -1,3 +1,7 @@
+#main {
+  width: 100vw;
+}
+
 #tribute-presentation{
   height: 100vh;
   background: #033F63;
@@ -6,6 +10,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'PT Serif', serif;
+  text-align: center;
 }
 
 #tribute-presentation h1{
@@ -44,10 +49,4 @@
 #tribute-quote #img-div #image{
   width: auto;
   height: 100%;
-}
-
-@media(min-width: 900px){
-  #tribute-quote{
-    flex-direction: row;
-  }
 }
