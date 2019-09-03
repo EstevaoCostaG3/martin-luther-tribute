@@ -1,5 +1,5 @@
 #main {
-  width: 100vw;
+  width: 100%;
 }
 
 #tribute-presentation{
@@ -9,7 +9,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'PT Serif', serif;
   text-align: center;
 }
 
@@ -29,24 +28,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 680px;
   background: #3E5C41;
   text-align: center;
 }
 
 #tribute-quote p{
-  width: 300px;
-  padding: 10px 0 0 10px;
+  max-width: 410px;
+  width: 100%;
   color: #fff;
 }
 
-#tribute-quote #img-div{
-  height: 70%;
-  margin: 40px;
-}
-
 #tribute-quote #img-div #image{
-  width: auto;
-  height: 100%;
+  width: 400px;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.8);
 }
