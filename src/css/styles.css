@@ -55,6 +55,7 @@
 }
 
 #tribute-info article {
+  color: #fff;
   max-width: 700px;
   width: 100%;
   padding: 40px 20px 40px 20px;
@@ -65,4 +66,21 @@
 #tribute-info article h4{
   text-align: center;
   margin-bottom: 1em;
+}
+
+#tribute-info article ul li{
+  position: relative;
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 0.5em;
+}
+
+#tribute-info article ul li::before{
+  content: '';
+  background-color: #fff;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
