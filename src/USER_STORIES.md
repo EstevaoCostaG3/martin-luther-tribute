@@ -14,4 +14,4 @@
 
 - [x] The img element should be centered within its parent element.
 
-- [] The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+- [x] The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
