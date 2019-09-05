@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
 #main {
   width: 100%;
 }
 
 #tribute-presentation{
+  font-family: 'Playfair Display SC','PT Serif', serif;
   height: 100vh;
   background: #033F63;
   display: flex;
@@ -32,7 +35,6 @@
   height: 680px;
   background: #3E5C41;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #tribute-quote q{

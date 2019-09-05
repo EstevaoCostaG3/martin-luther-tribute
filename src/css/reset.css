@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +6,7 @@
 }
 
 body{
-  font-family: 'Playfair Display SC','PT Serif', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
 }
 
