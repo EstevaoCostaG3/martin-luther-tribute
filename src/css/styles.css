@@ -44,8 +44,25 @@
 }
 
 #tribute-quote #img-div #image{
-  max-width: 480px;
   width: 100%;
+  max-width: 480px;
   height: auto;
   box-shadow: 0 0 5px rgba(0,0,0, 0.8);
+}
+
+#tribute-info{
+  background: #033F63;
+}
+
+#tribute-info article {
+  max-width: 700px;
+  width: 100%;
+  padding: 40px 20px 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tribute-info article h4{
+  text-align: center;
+  margin-bottom: 1em;
 }
