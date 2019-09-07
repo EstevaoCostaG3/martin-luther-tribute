@@ -96,3 +96,14 @@
   left: 0;
   transform: translate(-50%, -50%);
 }
+
+#tribute-foot{
+  background-color: #033F63;
+  color: #fff;
+  text-align: center;
+  height: 4em;
+}
+
+footer p #tribute-link{
+  color: #fff;
+}
