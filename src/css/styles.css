@@ -71,7 +71,7 @@
 #tribute-info article ul li{
   position: relative;
     padding-left: 15px;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 #tribute-info article ul li::before{
