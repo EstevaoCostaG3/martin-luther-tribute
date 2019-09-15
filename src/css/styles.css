@@ -32,15 +32,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 680px;
   background: #3E5C41;
   text-align: center;
 }
 
 #tribute-quote q{
-  max-width: 410px;
-  width: 100%;
+  max-width: 450px;
+  width: 90%;
+  margin-top: 1em;
   color: #fff;
+}
+
+#tribute-quote #img-div{
+  margin: 1em;
 }
 
 #tribute-quote #img-div #image{
