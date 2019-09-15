@@ -56,16 +56,20 @@
 
 #tribute-info article {
   color: #fff;
-  max-width: 700px;
-  width: 100%;
-  padding: 40px 20px 40px 20px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#tribute-info article h4{
+#tribute-info article h4, #tribute-info article footer{
   text-align: center;
-  margin-bottom: 1em;
+  margin: 1em;
+}
+
+#tribute-info article ul{
+  max-width: 700px;
+  width: 90%;
 }
 
 #tribute-info article ul li{
@@ -95,13 +99,6 @@
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
-}
-
-#tribute-info article footer{
-  background-color: #033F63;
-  color: #fff;
-  text-align: center;
-  height: 4em;
 }
 
 #tribute-info #tribute-link{
