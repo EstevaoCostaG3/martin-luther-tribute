@@ -97,13 +97,13 @@
   transform: translate(-50%, -50%);
 }
 
-#tribute-foot{
+#tribute-info article footer{
   background-color: #033F63;
   color: #fff;
   text-align: center;
   height: 4em;
 }
 
-footer p #tribute-link{
+#tribute-info #tribute-link{
   color: #fff;
 }
